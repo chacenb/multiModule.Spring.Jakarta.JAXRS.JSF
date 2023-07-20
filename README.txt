@@ -1,18 +1,26 @@
 this project is a multi-Module Maven project that has:
 --------------------------------------------------------
 + Reactor POM 
-+-- 1. <config> .....   Configuration module 
++-- 0. <config> .....   Configuration module 
++-- 1. <common> .....   Common assets module 
 +-- 2. <jaxrsapi> ...   JAX-RS API server  (depends on 1.)
 +-- 3. <jsfclient> ..   JSF web app client  (depends on 1.)
 
 Desctiption:
-1. config : com.chace.mmsj
-    Defines build profiles, defines application.properties that are going to be read by all other modules
 
-2. jaxrsapi: 
-    uses configModule as dependency
+0. <config> : com.chace:mmsj3.config
+    - Defines build profiles for the whole application &&
+    - defines application.properties file that is going to be read by all other modules
 
-    RESTEasy JAX-RS 
+1. <common> : com.chace:mmsj3.common
+    Defines common classes & interfaces to be used by all modules
+
+2. <jaxrsapi> : com.chace:mmsj3.jaxrsapi 
+    - uses <config> as dependency
+    - JAX-RS resources
+    - spring CDI
     
-2. jsfclient: 
-    uses configModule as dependency
+2. <jsfclient>: com.chace:mmsj3.jsfclient 
+    - uses <config> as dependency
+    - JAX-RS resources
+    - spring CDI
