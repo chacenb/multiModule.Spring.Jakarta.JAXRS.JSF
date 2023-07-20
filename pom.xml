@@ -9,6 +9,8 @@
     <version>1.0</version>
 
     <modules>
+        <module>mmsj3.jaxrsapi</module>
+        <module>mmsj3.jsfclient</module>
         <module>config</module>
         <module>common</module>
     </modules>

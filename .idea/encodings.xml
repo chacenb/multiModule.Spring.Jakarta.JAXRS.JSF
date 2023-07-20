@@ -5,6 +5,10 @@
     <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmsj3.jsfclient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mmsj3.jsfclient/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

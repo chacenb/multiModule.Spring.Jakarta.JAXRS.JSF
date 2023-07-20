@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6511d873-acf8-4d4f-b98e-047988f81b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/chace/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/chace/mmsj/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3_jaxrsapi/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3_jaxrsapi/HelloResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/src/main/java/com/chace/mmsj3_jsfclient/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmsj3.jsfclient/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +61,45 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "D:/Sahelys_Projects/TESTpROJECTS/multiModule.Spring.Jakarta.JAXRS.JSF",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean package" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss/WildFly 28.0.0.Final_NO_CONF" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 28.0.0.Final_NO_CONF" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/mmsj3.jaxrsapi-1.0/mmsj3.jaxrsapi-1.0" />
+      <deployment>
+        <artifact name="mmsj3.jaxrsapi:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mmsj3.jaxrsapi:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,8 +109,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689850759847</updated>
-      <workItem from="1689850763162" duration="701000" />
+      <workItem from="1689850763162" duration="1852000" />
     </task>
+    <task id="LOCAL-00001" summary="...">
+      <created>1689851482542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689851482542</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
