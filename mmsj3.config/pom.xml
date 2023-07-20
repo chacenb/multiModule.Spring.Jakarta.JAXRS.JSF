@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mmsj3</artifactId>
+        <groupId>com.chace</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mmsj3.config</artifactId>
+
+    <profiles> <!--https://www.baeldung.com/maven-profiles-->
+
+        <!-- default profile because of this >> <activeByDefault>true</activeByDefault> " -->
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <buildProfilePath>profiles/devProfile</buildProfilePath>
+            </properties>
+        </profile>
+
+        <!-- trigger this with the command "mvn clean package -P preprod" -->
+        <profile>
+            <id>preprod</id>
+            <properties>
+                <buildProfilePath>profiles/preprodProfile</buildProfilePath>
+            </properties>
+        </profile>
+
+        <!-- trigger this with the command "mvn clean package -P prod" -->
+        <profile>
+            <id>prod</id>
+            <properties>
+                <buildProfilePath>profiles/prodProfile</buildProfilePath>
+            </properties>
+        </profile>
+    </profiles>
+
+    <build>
+        <finalName>mmsj3Config</finalName>
+
+        <!-- Resource filtering : Inject properties in resources (properties files, assets, ...)
+        All resources inside "src/main/resources" will then be filtered.
+        We can use filtering to replace variables in our resource files -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <!-- specify filters (where filtered resources' variable come from) -->
+        <filters>
+            <filter>${buildProfilePath}/config.properties</filter>
+        </filters>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -11,8 +11,8 @@
     <modules>
         <module>mmsj3.jaxrsapi</module>
         <module>mmsj3.jsfclient</module>
-        <module>config</module>
-        <module>common</module>
+        <module>mmsj3.config</module>
+        <module>mmsj3.common</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -29,11 +29,63 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>6.0.8</version>
+            </dependency>
 
+            <dependency>
+                <groupId>jakarta.platform</groupId>
+                <artifactId>jakarta.jakartaee-api</artifactId>
+                <version>10.0.0</version>
+                <scope>provided</scope>
+                <!-- includes : jakarta.platform:jakarta.jakartaee-web-api:10, jakarta.faces:jakarta.faces-api:4.0.1, jakarta.servlet:jakarta.servlet-api:6.0 -->
+            </dependency>
+
+            <dependency>
+                <groupId>jakarta.platform</groupId>
+                <artifactId>jakarta.jakartaee-web-api</artifactId>
+                <version>10.0.0</version>
+                <scope>provided</scope>
+                <!-- includes = jakarta.faces:jakarta.faces-api:4.0.1, jakarta.servlet:jakarta.servlet-api:6.0 -->
+            </dependency>
+
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.5.4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core-jakarta</artifactId>
+                <version>5.6.15.Final</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-runtime</artifactId>
+                <version>3.0.2</version>
+            </dependency>
+
+            <!-- log4j2 logger needed dependencies FOR SPRING -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>2.20.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>2.20.0</version>
+            </dependency>
+            <!-- END log4j2 logger needed dependencies FOR SPRING -->
         </dependencies>
     </dependencyManagement>
 
     <build>
+
         <pluginManagement>
             <plugins>
                 <plugin>

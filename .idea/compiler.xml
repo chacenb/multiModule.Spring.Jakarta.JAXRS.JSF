@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mmsj3.jaxrsapi" />
         <module name="mmsj3.common" />
-        <module name="config" />
         <module name="mmsj3.jsfclient" />
+        <module name="mmsj3.config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
