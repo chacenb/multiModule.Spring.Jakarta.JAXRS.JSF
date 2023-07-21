@@ -10,54 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6511d873-acf8-4d4f-b98e-047988f81b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.common/src/main/java/mmsj3/common/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.common/src/main/java/mmsj3/common/models/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.common/src/main/java/mmsj3/common/resources/IHelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.common/target/mmsj3.common-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/profiles/devProfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/profiles/preprodProfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/profiles/prodProfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.config/src/main/resources/root.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/JAXRSApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/persistence/HelloRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/persistence/ifaces/IHelloRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/resource/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/service/ifaces/IHelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/chace/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/chace/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/mmsj3.common-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/java/com/chace/mmsj/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/classes/com/chace/mmsj/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.config/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/mmsj3.config-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3_jaxrsapi/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3_jaxrsapi/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mmsj3.jsfclient/src/main/java/com/chace/mmsj3_jsfclient/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.jsfclient/src/main/java/mmsj3/common/mmsj3_jsfclient/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmsj3.config/src/main/resources/root.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.config/src/main/resources/root.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/java/com/chace/mmsj3/jaxrsapi/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmsj3.jaxrsapi/src/main/resources/ApplicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +64,8 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "spring.configuration.checksum": "fe8bfbfd7d084b82a767a0ac5f16cbd0"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -254,6 +210,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689850759847</updated>
       <workItem from="1689850763162" duration="19052000" />
+      <workItem from="1689945668309" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1689851482542</created>
