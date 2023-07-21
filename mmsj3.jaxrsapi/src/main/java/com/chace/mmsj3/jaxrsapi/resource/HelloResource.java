@@ -33,27 +33,21 @@ public class HelloResource implements IHelloResource {
 			@Value("${DB_PASSWORD}")
 			private char[] password;
 
-//			public HelloResource(HelloService service) {}
+			private final HelloService helloService;
 
 			@Autowired
-			private HelloService helloService;
-
-//			public HelloResource(HelloService service) {
-//						this.helloService = service;
-//			}
-
-
-			public HelloService getHelloService() {
-						return helloService;
+			public HelloResource(HelloService service) {
+						this.helloService = service;
 			}
 
 			@Override
-			public jakarta.ws.rs.core.Response index() {
+			public Response index() {
 						helloService.printDBConfigs();
-						return jakarta.ws.rs.core.Response.status(200).header("Access-Control-Allow-Origin", "*")
-								.header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
-								.header("Access-Control-Allow-Credentials", "true")
-								.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD").entity("").build();
+//						return jakarta.ws.rs.core.Response.status(200).header("Access-Control-Allow-Origin", "*")
+//								.header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+//								.header("Access-Control-Allow-Credentials", "true")
+//								.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD").entity("").build();
+						return new Response();
 			}
 
 			@Override

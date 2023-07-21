@@ -14,7 +14,9 @@ import java.util.List;
 
 @Component
 public class HelloRepository implements IHelloRepository {
+
 			private static final Logger LOG = LogManager.getLogger(HelloRepository.class);
+
 			private final EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("demojpaappdbpersistenceunit");
 			private final EntityManager em = entityManagerFactory.createEntityManager();
 

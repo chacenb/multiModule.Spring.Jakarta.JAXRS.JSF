@@ -1,9 +1,6 @@
 package com.chace.mmsj3.jaxrsapi.entity;
 
-//import jakarta.persistence.*;
-
 import jakarta.persistence.*;
-//import mmsj3.common.models.IEmployee;
 
 @Entity
 @NamedQuery(name = "GETALLEMPLOYEES", query = "select E from Employee E")

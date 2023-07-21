@@ -27,26 +27,22 @@ public class HelloService implements IHelloService {
 			@Value("${DB_PASSWORD}")
 			private char[] password;
 
+			private final HelloRepository helloRepository;
+
 			@Autowired
-			private HelloRepository helloRepository;
-
-//			public HelloService(HelloRepository repo) {
-//						this.helloRepository = repo;
-//			}
-
-//			public HelloService() {			}
+			public HelloService(HelloRepository repo) {
+						this.helloRepository = repo;
+			}
 
 			@Override
 			public Employee createEmployee(Employee e) {
 						LOG.info("HelloService > createEmployee ");
-
 						return helloRepository.createEmployee(e);
 			}
 
 			@Override
 			public List<Employee> getAllEmployees() {
 						LOG.info("HelloService > getAllEmployees ");
-
 						return helloRepository.getAllEmployees();
 			}
 

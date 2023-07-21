@@ -14,7 +14,7 @@ public interface IHelloResource {
 			@GET
 			@Path("/")
 			@Produces({ MediaType.TEXT_PLAIN })
-			public jakarta.ws.rs.core.Response index();
+			public Response index();
 
 			@GET
 			@Path("/allEmployees")
